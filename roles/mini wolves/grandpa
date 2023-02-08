@@ -1,0 +1,11 @@
+**Grandma** | Townsfolk Power | Mini
+__Basics__
+Each night, the Grandpa may choose one players. The next day, these selected player can’t vote.
+__Details__
+Making a player unable to vote is an immediate ability. If they still vote, their vote simply isn’t counted towards the final result. 
+If the Grandpa selects a player with several votes (e.g. Mayor or Grandma), they only lose 1 of their votes, but keep the others. 
+Players with negative votes or no votes can't have their negative votes stolen (and the Grandpa is informed). The Mayors extra vote cannot be stolen.
+The Grandpa may select themself. The Grandpa is affected by redirections.
+
+__Simplified__
+Each night, the Grandpa can choose a player. The next day, these selected player's vote won't count.
