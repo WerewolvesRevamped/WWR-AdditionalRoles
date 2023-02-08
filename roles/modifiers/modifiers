@@ -1,4 +1,5 @@
 **Modifiers** | Variant
+__Main__
 <?Accursed:> Accursed
 <?Afraid:> Afraid
 <?Baking:> Baking
@@ -12,3 +13,6 @@
 <?Musical:> Musical
 <?Prankster:> Prankster
 <?Running:> Running
+
+__Mini__
+Acrobatic
