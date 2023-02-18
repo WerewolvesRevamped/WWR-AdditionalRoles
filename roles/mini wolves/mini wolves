@@ -1,18 +1,18 @@
 **Mini Wolves Roles** | Additional Roles | Mini
 __Town__
-Acrobat (TM)
-Grandpa (TP)
-Sorceress (TP)
-Master Barber (TK)
-Neighbor (TM)
-Royal Guard (TP)
-Wild Child (TM)
+<?Acrobat:> Acrobat (TM)
+<?Grandpa:> Grandpa (TP)
+<?Sorceress:> Sorceress (TP)
+<?MasterBarber:> Master Barber (TK)
+<?Neighbor:> Neighbor (TM)
+<?RoyalGuard:> Royal Guard (TP)
+<?WildChild:> Wild Child (TM)
 
 __Wolves__
-Blessed Wolf (WM)
+<?BlessedWolf:> Blessed Wolf (WM)
 
 __Unaligned__
-Apprentice (UAA)
+<?Apprentice:> Apprentice (UAA)
 
 __Modifiers__
-Acrobatic
+<?Acrobatic:> Acrobatic
