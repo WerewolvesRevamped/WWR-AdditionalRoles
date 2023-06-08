@@ -2,14 +2,14 @@
 __Main__
 <?Accursed:> Accursed
 <?Afraid:> Afraid
-<?AlphaWolf:> Alpha
 <?Amnesiac:> Amnetic
 <?Baking:> Baking
 <?Butchering:> Butchering
 <?Childish:> Childish
 <?Copycatting:> Copycatting
 <?Cubbish:> Cubbish
-<?DevoutVillager:> Devout
+<?AlphaWolf:> Dominant
+<?DevoutVillager:> Faithful
 <?Hellish:> Hellish
 <?Idiot:> Idiotic
 <?Alcoholic:> Inebriated
@@ -22,4 +22,4 @@ __Main__
 <?Thief:> Thieving
 
 __Mini__
-Acrobatic
+<?Acrobatic:> Acrobatic
