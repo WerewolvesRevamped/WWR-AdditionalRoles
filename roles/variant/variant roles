@@ -1,9 +1,9 @@
 **Variant Roles** | Additional Roles | Variant
 __Roles:__
-Corpse (SM)
-Look-Alike (UAA)
-Thief (UAA)
-Zombie (SR)
-Zombified Cupid (UAA)
+<?Corpse:> Corpse (SM)
+<?LookAlike:> Look-Alike (UAA)
+<?Thief:> Thief (UAA)
+<?Zombie:> Zombie (SR)
+<?ZombifiedCupid:> Zombified Cupid (UAA)
 __Modifiers:__
-Modifiers 
+<?Modifier:> Modifiers
