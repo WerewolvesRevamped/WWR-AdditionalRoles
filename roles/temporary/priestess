@@ -1,0 +1,12 @@
+**Priestess** | Townsfolk Power | Temporary
+__Basics__
+Each night, the Priestess can attempt to remove the accursed modifier from a player.
+__Details__
+Each Night, the Priestess can select a player. If that player has the accursed modifier, it is removed and the Priestess is informed.
+Selecting a player is an immediate action and cannot be performed on a player two nights in a row.
+The curse caster who applied the accursed modifier will also be informed it was removed, but not from which player.
+The Priestess can gain the accursed modifier but is not affected by it.
+
+__Simplified__
+The Priestess is a townsfolk role who can remove an accursed modifier during the night.
+If an accursed modifier is removed, both the Priestess and the Curse Caster are informed, however the Curse Caster is not informed who it was removed from.
