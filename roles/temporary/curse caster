@@ -1,14 +1,15 @@
 **Curse Caster** | Werewolf Power | Temporary
 __Basics__
-Each day, the Curse Caster may attempt to apply the accursed modifier to another player.
+Each day, the Curse Caster may attempt to curse another player.
 __Details__
-During the day, the Curse Caster may select one player. If the player is not part of the wolfpack, the accursed modifier is applied on top of their current role.
-Applying the accursed modifier is an immediate action.
+During the day, the Curse Caster may select one player. If the player is not part of the wolfpack, the cursed effect is applied to them, they are not informed of this.
+Cursing a player is an immediate action.
+When a cursed player is attacked by a wolfish player the cursed player is transformed into a wolf.
 If the the Curse Caster selects a member of the wolfpack, the action will fail and the Curse Caster will be informed why.
-If the Curse Caster selects a target that is already accursed, the action will fail and the Cursed Caster will be informed. This is a different message than selecting a member of the wolfpack.
+If the Curse Caster selects a target that is already cursed or a cursed civilian, the action will fail and the Cursed Caster will be informed. This is a different message than selecting a member of the wolfpack.
 The Curse Caster is neither a lycan or a member of the wolfpack.
 
 __Simplified__
-Each day, the Curse caster can attempt to apply the accursed modifier to a player.
+Each day, the Curse caster can attempt to curse to a player.
 The Curse Caster and the wolfpack do not know each other. 
 This action will fail on members of the wolfpack and the Curse Caster is informed why. 
