@@ -1,0 +1,10 @@
+**Stock Market** | Cryptographer Team | Temporary
+__Details__
+At the start of the game, the Cryptographer gains 100 coins. At the start of each phase they are shown the current stocks. They may choose to invest any amount of coins in any stock. 
+__The Market__
+1 Coin - Free ad for a crypto scam
+10 Coins - Investigation (see a player's role, affected by all disguises, redirections and obstructions, immediate)
+20 Coins - Attack (affected by redirections, end phase)
+20 Coins - Protect somebody else (affected by redirections, immediate for current phase)
+30 Coins - Protect yourself (affected by redirections, immediate for current phase)
+40 Coins - True Investigation (see a player's role, affected by nothing, immediate)
