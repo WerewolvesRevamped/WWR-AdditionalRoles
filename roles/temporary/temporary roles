@@ -1,8 +1,11 @@
 **Temporary Roles** | Additional Roles | Temporary
 __Roles__
+<?Cryptographer:> Alternative Cryptographer (SK)
 <?Burglar:> Burglar (UAM)
 <?CurseCaster:> Curse Caster (WP)
 <?Cryptographer:> Cryptographer (SK)
 <?ElectedBartender:> Elected Bartender [Bartender$elected] (EE)
+<?LastLivingBabyWolf:> Last Living Baby Wolf (SM)
 <?LastLivingCitizen:> Last Living Citizen (SE)
-<?Priestess:> Priestess
+<?LastLivingWolf:> Last Living Wolf (SK)
+<?Priestess:> Priestess (TP)
