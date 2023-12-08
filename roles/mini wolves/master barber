@@ -9,3 +9,9 @@ The Master Barber’s attack is an immediate ability. If the Master Barber's att
 __Simplified__
 The Master Barber may once per game choose to immediately attack one player during the day.
 The player can optionally choose to have their name revealed with the announcement of their ability.
+
+__Formalized__
+Immediate Day: [Quantity: 1]
+  • Attack @Selection 
+  • Target @Selection (List: Reveal, NoReveal)
+  • Evaluate: (@Result is `Success`) and (@Target is Reveal): Reveal `Master Barber @Self killed @Selection` to #story_time
