@@ -3,3 +3,9 @@ __Basics__
 The Neighbor receives a list of three players at the start of the game. At least one of those players is part of the townsfolk team.
 __Details__
 The info given is not under the influence of any other powers. It is possible that more than one of the three players is part of the townsfolk team.
+
+__Simplified__
+At the start, the Neighbor receives a list of three players, one of which is town aligned.
+
+__Formalized__
+Starting: Learn `One of shuffle(%Player1%, %Player2%, %Player3:@(Align:Townsfolk)%) is townsfolk aligned `
