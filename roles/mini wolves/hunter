@@ -6,3 +6,6 @@ The Hunter may only attack a total of 1 time throughout a game. The Hunter’s a
 
 __Simplified__
 The Hunter may choose one player to attack during the night. It can do so once per game.
+
+__Formalized__
+End Night: Attack @Selection [Quantity: 1]
