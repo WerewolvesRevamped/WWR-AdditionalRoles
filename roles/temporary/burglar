@@ -1,5 +1,9 @@
-**Burglar** | Unaligned Miscellaneous | Temporary
+**Burglar** | Unaligned Killing | Temporary
 __Basics__
 The Burglar wins if a thief attempts to switch with them.
 __Details__
-If a thief attempts to switch with the Burglar, the Burglar ascends and wins. When that happens, the thief that attempted to switch with the Burglar dies.
+If a thief attempts to switch with the Burglar, the Burglar ascends and wins. When that happens, the thief that attempted to switch with the Burglar is killed by the Burglar.
+If there are no living thiefs, the burglar will descend and lose.
+
+__Simplified__
+The Burglar wins if a thief attempts to switch with them. The burglar kills the thief that caused them to win.
