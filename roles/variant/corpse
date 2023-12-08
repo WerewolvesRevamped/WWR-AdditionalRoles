@@ -10,5 +10,5 @@ __Simplified__
 The Corpse wins with the zombie and joins a channel with the zombie to communicate securely. If no zombies are left, the Corpse becomes a zombie.
 
 __Formalized__
-Inherit: Graveyard Team
+Starting: Join `Graveyard`
 Passive: not (@(Role:Zombie) exists): Role Change @Self to `Zombie`
