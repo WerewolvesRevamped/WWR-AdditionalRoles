@@ -1,0 +1,10 @@
+**Graveyard Team**
+Graveyard Team wins when all players are dead, unaligned or part of the team. Members of the team know each other.
+
+__Roles__
+<?Zombie:> Zombie
+<?Corpse:> Corpse
+
+__Formalized__
+Win Condition: @(Alignment:Graveyard)
+Starting: Join `Graveyard`
