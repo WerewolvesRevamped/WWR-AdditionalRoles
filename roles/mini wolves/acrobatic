@@ -1,3 +1,9 @@
 **Acrobatic** | Modifier | Mini
 __Basics__
 Acrobatic is a modifier which causes the player to escape the first two wolf attacks on them as if they were an acrobat. Modifiers are added onto another role.
+
+__Formalized__
+Starting: Protect @Self from `Attacks` by @(Attr:Wolfish) through Passive Defense during Night (~UntilSecondUse)
+On Passive Defense:
+  • @AttackSource is `Group:Wolfpack`: Reveal `@Self ran away` to #wolfpack
+  • Otherwise: Reveal `@Self ran away` to @Attacker
