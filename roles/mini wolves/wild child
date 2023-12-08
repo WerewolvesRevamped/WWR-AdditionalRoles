@@ -11,5 +11,5 @@ At the first night, they must choose a role model. If their role model dies, at 
 
 __Formalized__
 Immediate Night: Target @Selection [Temporal: Night 1] {Forced}
-On @Target Death: 
-  • Start Phase: Role Change @Self to `Wolf`
+Passive Start Phase: [Temporal: Day 1+]
+  • not (@Target exists): Role Change @Self to `Wolf` 
