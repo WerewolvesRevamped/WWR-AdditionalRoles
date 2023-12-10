@@ -14,3 +14,10 @@ The Thief is not affected by redirections.
 __Simplified__
 Each night, the Thief chooses one player to switch roles with. Each player can only be chosen once.
 They win if they survive until the end of the game, or have already switched with all remaining players.
+
+__Formalized__
+Starting: Apply `Thief` to @Self
+Immediate Night: Target @Selection [Attribute: @Selection lacks `Thief:@Self`] {Forced, Direct}
+Passive End Night: Switch with @Target {Direct}
+On End: Ascend
+Passive: not (@(Class:!Unaligned,Attr:!Thief:@Self) exists): Ascend
