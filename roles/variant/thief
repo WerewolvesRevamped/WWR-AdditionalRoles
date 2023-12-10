@@ -16,8 +16,8 @@ Each night, the Thief chooses one player to switch roles with. Each player can o
 They win if they survive until the end of the game, or have already switched with all remaining players.
 
 __Formalized__
-Starting: Apply `Thief` to @Self
-Immediate Night: Target @Selection [Attribute: @Selection lacks `Thief:@Self`] {Forced, Direct}
+Starting: Apply `Thieved` to @Self
+Immediate Night: Target @Selection [Attribute: @Selection lacks `Thieved:@Self`] {Forced, Direct}
 Passive End Night: Switch with @Target {Direct}
 On End: Ascend
-Passive: not (@(Class:!Unaligned,Attr:!Thief:@Self) exists): Ascend
+Passive: not (@(Class:!Unaligned,Attr:!Thieved:@Self) exists): Ascend
