@@ -4,5 +4,5 @@ The attribute of the graveyard team. Bitten players experience no effects, but m
 
 __Formalized__
 Starting: Set Counter to `0`
-Passive Night End:
+Passive Night Start:
   • Increment Counter
