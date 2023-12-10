@@ -5,3 +5,15 @@ __Detailed__
 The Sorceress's ability only affects Townsfolk roles. If used on a member of the werewolf team, the Sorceress loses her ability for the rest of the game. If used on a Solo or Unaligned, nothing happens.
 The Sorceress is an end-day ability. They will be notified if it was successful or if they lost their powers. The target will be notified that they were targeted by a Sorceress, even if they are not a Townsfolk role.
 The Sorceress ability does not affect other Sorceresses or roles without a repeatable action (such as Hooker).
+
+__Formalized__
+End Day:
+  • Reveal `Sorceress used an ability on you` to @Selection
+  • @Selection->Alignment is `Townsfolk`:
+    ‣ Learn `Success`
+    ‣ Duplicate @Selection's abilities (~NextNight)
+  • @Selection->Alignment is `Werewolf`:
+    ‣ Learn `Failure and you lose your powers.`
+    ‣ Obstruct Copying for @Self
+  • Otherwise:
+    ‣ Learn `Failure, but you keep your powers.`
