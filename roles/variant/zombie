@@ -19,3 +19,15 @@ If a Zombie tries to turn a member of the hell team (second bite), their power b
 __Simplified__
 Each night, the Zombie may bite another player. If a player is bitten two nights in a row, they become a Zombie and join the graveyard channel. They win when all players are either dead or part of the graveyard team.
 If a Zombie dies, every other Zombie that has been turned by the dying Zombie also dies.
+
+__Formalized__
+Starting: Join #Graveyard
+Starting: Obstruct @Self (~Phase)
+Immediate Night:
+  • Process:
+    ‣ Attribute Investigate @Selection for `Bitten`
+  • Evaluate:
+    ‣ @Result1 is `Success`:
+      ◦ @(Attr:Bitten:@Selection)->Counter is `1`: Role Change @Selection into `Zombie`
+      ◦ Otherwise: Set @(Attr:Bitten:@Selection)->Counter to `0`
+    ‣ Otherwise: Apply `Bitten` to @Selection
