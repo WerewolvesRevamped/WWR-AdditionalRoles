@@ -24,10 +24,7 @@ __Formalized__
 Starting: Join #Graveyard
 Starting: Obstruct @Self (~Phase)
 Immediate Night:
-  • Process:
-    ‣ Attribute Investigate @Selection for `Bitten`
-  • Evaluate:
-    ‣ @Result1 is `Success`:
-      ◦ @(Attr:Bitten:@Selection)->Counter is `1`: Role Change @Selection into `Zombie`
-      ◦ Otherwise: Set @(Attr:Bitten:@Selection)->Counter to `0`
-    ‣ Otherwise: Apply `Bitten` to @Selection
+  • @Selection has `Bitten`:
+    ‣ @(Attr:Bitten:@Selection)->Counter is `1`: Role Change @Selection into `Zombie`
+    ‣ Otherwise: Set @(Attr:Bitten:@Selection)->Counter to `0`
+  • Otherwise: Apply `Bitten` to @Selection
