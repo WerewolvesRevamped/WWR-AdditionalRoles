@@ -1,6 +1,9 @@
 **Bitten** | Attribute
 __Basics__
-The attribute of the graveyard team. Bitten players experience no effects, but may be turned into a zombie if bitten again.
+The attribute of the graveyard team. Bitten players experience no effects, but may be turned into a zombie if bitten on two consecutive nights.
 
 __Formalized__
-No Abilities
+Starting: Set Counter to `0`
+Passive Night End:
+  • Increment Counter
+  • @Self->Counter > 1: Remove @ThisAttr
