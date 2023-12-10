@@ -6,4 +6,3 @@ __Formalized__
 Starting: Set Counter to `0`
 Passive Night End:
   • Increment Counter
-  • @Self->Counter > 1: Remove @ThisAttr
