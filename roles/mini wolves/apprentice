@@ -3,7 +3,12 @@ __Basics__
 On the first death or attack, the Apprentice will pick up the role of whoever is attacked.
 __Details__
 The Apprentice will stay as an Apprentice until someone is either attacked or killed, thereafter they will pick up the role of the dead, and join the team they were on. 
-If multiple people are attacked or killed at the same time, the Apprentice will pick up a random of the attack / dead people’s roles, but it will not be revealed from who the role came from.
+If multiple people are attacked or killed at the same time, killed players have priority over attacked players. But in the event of a tie, the Apprentice will choose a random role from the attacked / dead people, but it will not be revealed who the role came from. 
+Picking up another player's role is an immediate ability.
 
 __Simplified__
 On the first death or attack, the Apprentice will pick up the role of whoever is attacked.
+
+__Formalized__
+On @All Death: Role Change @Self to @This->Role
+On @All Visit [Attack]: Role Change @Self to @This->Role

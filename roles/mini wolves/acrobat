@@ -5,3 +5,14 @@ __Details__
 When they are attacked by a wolfish player, the Acrobat will not die. 
 If a Acrobat is targeted by any attack other than by a wolfish player's attack, they will die the first time.
 Acrobats are informed that they were attacked. If a Acrobat evades a wolfpack attack, the wolfpack is told their target ran away. If a Acrobat evades any other attack, the wolfish player responsible is informed instead.
+
+__Simplified__
+Twice per game, if attacked by a wolfish player, the Acrobat shall escape.
+Acrobats are informed that they were attacked. 
+If an Acrobat evades an attack, the source of the attack is told that their target ran away.
+
+__Formalized__
+Starting: Protect @Self from `Attacks` by @(Attr:Wolfish) through Passive Defense during Night (~UntilSecondUse)
+On Passive Defense:
+  • @AttackSource is `Group:Wolfpack`: Reveal `@Self ran away` to #wolfpack
+  • Otherwise: Reveal `@Self ran away` to @Attacker
