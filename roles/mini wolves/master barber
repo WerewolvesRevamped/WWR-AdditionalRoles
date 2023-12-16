@@ -15,3 +15,6 @@ Immediate Day: [Quantity: 1]
   • Attack @Selection 
   • Target @Selection (List: Reveal, NoReveal)
   • Evaluate: (@Result is `Success`) and (@Target is Reveal): Reveal `Master Barber @Self killed @Selection` to #story_time
+
+__Card__
+The Master Barber is a bit more daring than the regular barber. 
