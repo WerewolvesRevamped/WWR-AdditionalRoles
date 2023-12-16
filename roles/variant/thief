@@ -21,3 +21,6 @@ Immediate Night: Target @Selection [Attribute: @Selection lacks `Thieved:@Self`]
 Passive End Night: Switch with @Target {Direct}
 On End: Ascend
 Passive: not (@(Class:!Unaligned,Attr:!Thieved:@Self) exists): Ascend
+
+__Card__
+What's yours will soon be the Thief's instead.
