@@ -28,3 +28,6 @@ Immediate Night:
     ‣ @(Attr:Bitten:@Selection)->Counter is `1`: Role Change @Selection into `Zombie`
     ‣ Otherwise: Set @(Attr:Bitten:@Selection)->Counter to `0`
   • Otherwise: Apply `Bitten` to @Selection
+
+__Card__
+Two bites from a Zombie and you'll be one yourself.
