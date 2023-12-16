@@ -12,3 +12,6 @@ The Corpse wins with the zombie and joins a channel with the zombie to communica
 __Formalized__
 Starting: Join #Graveyard
 Passive: not (@(Role:Zombie) exists): Role Change @Self to `Zombie`
+
+__Card__
+The Corpse is the loyal companion of the zombie, replacing them if they fall.
