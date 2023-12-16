@@ -9,3 +9,6 @@ At the start, the Neighbor receives a list of three players, one of which is tow
 
 __Formalized__
 Starting: Learn `One of shuffle(%Player1%, %Player2%, %Player3:@(Align:Townsfolk)%) is townsfolk aligned `
+
+__Card__
+The Neighbor is sure at least one of her neighbors is an ally.
