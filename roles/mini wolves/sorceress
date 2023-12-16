@@ -6,6 +6,10 @@ The Sorceress's ability only affects Townsfolk roles. If used on a member of the
 The Sorceress is an end-day ability. They will be notified if it was successful or if they lost their powers. The target will be notified that they were targeted by a Sorceress, even if they are not a Townsfolk role.
 The Sorceress ability does not affect other Sorceresses or roles without a repeatable action (such as Hooker).
 
+__Simplified__
+The Sorceress chooses one person each day. If the target is a Townsfolk roles, the target can do their ability twice next time they do their ability.
+If used on a member of the werewolf team, the Sorceress loses her ability for the rest of the game.
+
 __Formalized__
 End Day:
   • Reveal `Sorceress used an ability on you` to @Selection
@@ -17,3 +21,6 @@ End Day:
     ‣ Obstruct Copying for @Self
   • Otherwise:
     ‣ Learn `Failure, but you keep your powers.`
+
+__Card__
+The Sorceress uses her magical power to increase the power of her allies, but risks losing it on a bad choice.
