@@ -12,3 +12,6 @@ On the first death or attack, the Apprentice will pick up the role of whoever is
 __Formalized__
 On @All Death: Role Change @Self to @This->Role
 On @All Visit [Attack]: Role Change @Self to @This->Role
+
+__Card__
+When somebody dies, the Apprentice takes up their job.
