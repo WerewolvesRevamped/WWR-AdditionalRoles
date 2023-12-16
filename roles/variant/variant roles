@@ -1,6 +1,8 @@
 **Variant Roles** | Additional Roles | Variant
 __Roles__
+<?Burglar:> Burglar (UAK)
 <?Corpse:> Corpse (SM)
+<?LastLivingCitizen:> Last Living Citizen (SK)
 <?LookAlike:> Look-Alike (UAA)
 <?Thief:> Thief (UAA)
 <?Zombie:> Zombie (SP)
