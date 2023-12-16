@@ -13,3 +13,6 @@ __Formalized__
 Immediate Night: Target @Selection [Temporal: Night 1] {Forced}
 Passive Start Phase: [Temporal: Day 1+]
   • not (@Target exists): Role Change @Self to `Wolf` 
+
+__Card__
+The Wild Child chooses an idol, betraying town if their idol dies.
