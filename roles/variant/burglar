@@ -8,5 +8,8 @@ If there are no living thiefs, the burglar will descend and lose.
 __Simplified__
 The Burglar wins if a thief attempts to switch with them. The burglar kills the thief that caused them to win.
 
+__Formalized__
+N/A
+
 __Card__
 The Burglar has a rivalry with the thief, hoping to stop them in their tracks.
