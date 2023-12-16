@@ -12,3 +12,6 @@ The Zombified Cupid is a cupid that has been bitten twice by a zombie.
 __Formalized__
 Inherit: `Cupid`
 Starting: Join `Graveyard`
+
+__Card__
+A cupid who's bitten by a zombie, will become a Zombified Cupid.
