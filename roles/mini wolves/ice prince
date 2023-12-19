@@ -1,0 +1,14 @@
+**Ice Prince** | Solo Miscellaneous - Ice Royal | Mini
+__Basics__
+The Ice Prince wins with the ice king. It joins a channel with the ice king to communicate securely.
+__Details__
+The Ice Prince occurs in place of a second ice king.
+If a player attempts to copy the ice king they will become an Ice Prince.
+If there is no ice king left the Ice Prince will become one.
+
+__Simplified__
+The Ice Prince wins with the ice king. It joins a channel with the ice king to communicate securely.
+If there is no ice king left the Ice Prince will become one.
+
+__Formalized__
+Passive: not (@(Role:Ice King) exists): Role Change @Self to `Ice King`
