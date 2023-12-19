@@ -1,7 +1,7 @@
 **Ice King** | Solo Investigative - Ice Royal | Mini
 __Basics__
 Each night the Ice King can investigate a certain number of players each night by guessing their true roles, for each correct guess that player is frozen.
-If all living players are either frozen or unaligned, the ice royals wins.
+If all living players are either frozen, unaligned or a member of the ice royals, the ice royals wins.
 __Details__
 For every 5 players, rounded, the Ice King can attepmt to guess one player's true role.
 If the Ice King guesses the correct role then they recieve a "Correct" result and freezes the player.
@@ -15,7 +15,7 @@ If a Ice King loses their role, they will lose their ability to investigate play
 
 __Simplified__
 Each night the Ice King can investigate a certain number of players each night by guessing their true roles, for each correct guess that player is frozen.
-If all living players are either frozen or unaligned, the ice royals wins.
+If all living players are either frozen, unaligned or a member of the ice royals, the ice royals wins.
 Players are roleblocked while frozen.
 
 __Formalized__
