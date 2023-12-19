@@ -1,0 +1,29 @@
+**Ice King** | Solo Investigative - Ice Royal | Mini
+__Basics__
+Each night the Ice King can investigate a certain number of players each night by guessing their true roles, for each correct guess that player is frozen.
+If all living players are either frozen or unaligned, the ice royals wins.
+__Details__
+For every 5 players, rounded, the Ice King can attepmt to guess one player's true role.
+If the Ice King guesses the correct role then they recieve a "Correct" result and freezes the player.
+If the Ice King guesses the wrong role then they recieve a "Incorrect" result.
+The investigation is immediate and is not affected by by disguises or redirections
+Frozen players are roleblocked for the duration.
+If no members of the ice royals remain, all players stop being frozen: they are not informed of this.
+
+There can only be one Ice King at any point.
+If a Ice King loses their role, they will lose their ability to investigate players. Role changes are not revealed to the other ice royals.
+
+__Simplified__
+Each night the Ice King can investigate a certain number of players each night by guessing their true roles, for each correct guess that player is frozen.
+If all living players are either frozen or unaligned, the ice royals wins.
+Players are roleblocked while frozen.
+
+__Formalized__
+Immediate Night: 
+• Action: ⟨calc(round($total/10))⟩
+• Process: Role Investigate @Selection
+• Evaluate: 
+  ‣ @Result is @SecondarySelection:
+    ◦ `Success`
+    ◦ Apply `Frozen` to @Selection
+  ‣ Otherwise: `Incorrect`
