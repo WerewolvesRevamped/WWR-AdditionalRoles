@@ -12,3 +12,6 @@ If there is no ice king left the Ice Prince will become one.
 
 __Formalized__
 Passive: not (@(Role:Ice King) exists): Role Change @Self to `Ice King`
+
+__Card__
+The Ice Prince is the heir to the Icy Throne.
