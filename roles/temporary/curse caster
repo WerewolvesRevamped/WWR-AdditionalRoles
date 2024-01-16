@@ -4,7 +4,7 @@ Each day, the Curse Caster may attempt to curse another player.
 __Details__
 During the day, the Curse Caster may select one player. If the player is not part of the wolfpack, the cursed effect is applied to them, they are not informed of this.
 Cursing a player is an immediate action.
-When a cursed player is attacked by a wolfish player the cursed player is transformed into a wolf.
+When a cursed player is attacked by a wolfish player they are transformed into a wolf.
 If the the Curse Caster selects a member of the wolfpack, the action will fail and the Curse Caster will be informed why.
 If the Curse Caster selects a target that is already cursed or a cursed civilian, the action will fail and the Cursed Caster will be informed. This is a different message than selecting a member of the wolfpack.
 The Curse Caster is neither a lycan or a member of the wolfpack.
