@@ -1,3 +1,7 @@
-**Baking** | Modifier | Variant
+**Baking** | Extra Group - Modifier | Variant
 __Basics__
-Baking is a modifier that causes the player to be part of the Bakers. Only town roles can be Baking. Modifiers are added onto another role.
+Baking players will start as a part of the bakers group.
+__Edge Cases__
+Baking players who are transformed into a wolf will become a butchering wolf instead.
+If a Baking player dies wolves will not get an extra poll.
+This modifier is only applicable to townsfolk players.
