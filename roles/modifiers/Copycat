@@ -1,0 +1,8 @@
+**Copycat** | Extra Power - Modifier | Variant
+__Basics__
+During Night 1 the Copycat must choose another player, they will then copy that players modifier and all data of it.
+If the copied modifier has a required action the player must then perform that action the same night.
+__Edgecases__
+If a werewolf role copies a baking modifier they instead change the group to butchers and become butchering.
+Attepting to copy a modifier that would cause a conflict with your role unless there is an otherwise edgecase will result in a failure and no modifier.
+Attempting to copy someone without a modifier will result in a failure and no modifier.
