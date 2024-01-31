@@ -1,3 +1,5 @@
-**Running** | Modifier | Variant
+**Running** | Extra Miscellaneous - Modifier | Variant
 __Basics__
-Running is a modifier which causes the player to escape the first wolf attack on them as if they were a runner. Modifiers are added onto another role.
+If attacked at night by a wolfish player a Running player will escape unharmed the first time, and be informed they were attacked.
+A wolfish player who attacks a Running player will be informed of this, if the attack is a group they will be informed instead.
+After being attacked once, it will lose its ability.
