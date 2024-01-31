@@ -1,3 +1,5 @@
 **Prankster** | Modifier | Variant
 __Basics__
-Prankster is a modifier that causes the player to have -1 votes on the public polls as if they were a trickster. Modifiers are added onto another role.
+The Prankster has a -1 vote on public polls.
+__Edge Cases__
+While they have the mayor's extra vote, the Prankster's vote is counted as -2 instead.
