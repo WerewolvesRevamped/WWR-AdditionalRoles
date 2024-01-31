@@ -1,27 +1,27 @@
 **Modifiers** | Role Addition | Variant
 __Main__
-<?Accursed:> Accursed
-<?Afraid:> Afraid
-<?Amnetic:> Amnetic
-<?Baking:> Baking
-<?Butchering:> Butchering
-<?Childish:> Childish
-<?Copycat:> Copycat
-<?Cubbish:> Cubbish
-<?Dominant:> Dominant
-<?Drunken:> Drunken
-<?Hellish:> Hellish
-<?Idiotic:> Idiotic
-<?Lovestruck:> Lovestruck
-<?Loyal:> Loyal
-<?Lurking:> Lurking
-<?Lycanthropic:> Lycanthropic
-<?Musical:> Musical
-<?Prankster:> Prankster
-<?Running:> Running
-<?Smart:> Smart
-<?Thieving:> Thieving
-<?Wolven:> Wolven
+<?Accursed:> Accursed (EA)
+<?Afraid:> Afraid (EM)
+<?Amnetic:> Amnetic (EM)
+<?Baking:> Baking (EG)
+<?Butchering:> Butchering (EG)
+<?Childish:> Childish (EM)
+<?Copycat:> Copycat (EP)
+<?Cubbish:> Cubbish (EM)
+<?Dominant:> Dominant (EM)
+<?Drunken:> Drunken (EM)
+<?Hellish:> Hellish (EG)
+<?Idiotic:> Idiotic (EM)
+<?Lovestruck:> Lovestruck (EA)
+<?Loyal:> Loyal (EM)
+<?Lurking:> Lurking (EM)
+<?Lycanthropic:> Lycanthropic (EM)
+<?Musical:> Musical (EM)
+<?Prankster:> Prankster (EM)
+<?Running:> Running (EM)
+<?Smart:> Smart (EM)
+<?Thieving:> Thieving (EP)
+<?Wolven:> Wolven (EM)
 
 __Mini__
-<?Acrobatic:> Acrobatic
+<?Acrobatic:> Acrobatic (EM)
