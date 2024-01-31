@@ -1,3 +1,4 @@
-**Musical** | Modifier | Variant
+**Musical** | Extra Miscellaneous - Modifier | Variant
 __Basics__
-Musical is a modifier which causes any action performed on the player to be broadcast in story-time as if they were a bard. If targeted, the action is announced in story time as an action performed on a musical player. Modifiers are added onto another role.
+Whenever a Musical player is visited it is announced at the end of the current phase what action was performed and by what role.
+It is always announced to be performed on a Musical player and not the player themself or their role.
