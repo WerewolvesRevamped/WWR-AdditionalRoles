@@ -1,3 +1,6 @@
-**Hellish** | Modifier | Variant
+**Hellish** | Extra Group - Modifier | Variant
 __Basics__
-Hellish is a modifier that causes the player to be part of the Hellhounds. Only pack wolf roles can be Hellish. Modifiers are added onto another role.
+Hellish players will start as a part of the hellhound group.
+__Edge Cases__
+If a Hellish player changes role the group will be disbanded.
+This modifier is only applicable to werewolf players.

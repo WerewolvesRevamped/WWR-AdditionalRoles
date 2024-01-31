@@ -1,3 +1,4 @@
-**Afraid** | Modifier | Variant
+**Afraid** | Extra Miscellaneous - Modifier | Variant
 __Basics__
-Afraid is a modifier which causes the player to escape the first attack on them as if they were a scared wolf. Modifiers are added onto another role.
+If attacked at night an Afraid player will escape unharmed the first time, and be informed they were attacked.
+After being attacked once, it will lose its ability.

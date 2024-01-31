@@ -1,3 +1,8 @@
-**Accursed** | Modifier | Variant
+**Accursed** | Extra Align - Modifier | Variant
 __Basics__
-Accursed is a modifier that makes the player with it turn into a wolf if attacked by a wolfish player as if they were a cursed civilian. An Accursed + Baker will turn into a bloody butcher and bakers will become butchers. Modifiers are added onto another role.
+If attacked at night by a wolfish player an Accursed player will survive and turn into a wolf. 
+__Edge Cases__
+An Accursed baker will turn into a bloody butcher and bakers will become butchers.
+An Accursed cult member, cult acolyte or cult leader will turn into a cultist wolf.
+An Accursed cupid will become a cupid wolf.
+This modifier cannot be applied to roles with alignment loyalty.

@@ -1,3 +1,8 @@
-**Lovestruck** | Modifier | Variant
+**Lovestruck** | Extra Align - Modifier | Variant
 __Basics__
-On the first night, the Lovestruck player must target a player and become in love with them adding them to a secret channel where they can communicate and if either the Lovestruck player or their lover die they both die as if they were a cupid. Modifiers are added onto another role.
+On the first night the lovestruck player must select a player to become their lover.
+Lovestruck players and their lover will share a channel where they can communicate securely.
+A Lovestruck player will gain the alignment of their lover in addidtion to their own.
+__Edge Cases__
+If a Lovestruck player's lover is unaligned they win and ascend with their lover.
+This modifier is only applicable to unaligned players.
