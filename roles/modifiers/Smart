@@ -1,3 +1,5 @@
-**Smart** | Modifier | Variant
+**Smart** | Extra Miscellaneous - Modifier | Variant
 __Basics__
-Smart is a modifier which causes the player to gain additional information about the role list as if they were a knowledgable wolf. Modifiers are added onto another role.
+At the start of the game a Smart player is told some of the roles on the role list.
+__Edge Cases__
+The Smart modifier can only be used in games with a partial or private role list.
