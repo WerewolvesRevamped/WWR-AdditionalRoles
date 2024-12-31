@@ -1,10 +1,11 @@
 **Ethan** | GM Killing | Joke
 __Basics__
-Each game that Ethan does not play or host but is promoted results in a public poll to kill them.
-Anyone who votes yes will be unable to act if they do die.
+If this role is in play, for each day they are alive Ethan generates a poll to kill themselves, if they die this way then they win.
+Only Townsfolk can win while Ethan is alive.
 __Details__
-A public poll with an arbitrary closing time will be opened to decide if Ethan should die at the start of the game.
-This only occurs if Ethan is not playing or hosting.
-Any player who votes yes will be unable to act for the rest of the game if Ethan does die in this way.
-If the vote is no there may be more polls created until a yes vote is reached.
-Ethan wins when they are killed by their own poll.
+Each day that Ethan is alive a public poll to kill them is created, this poll has only two options of yes and no.
+If the result of the poll is yes Ethan is killed and wins, but every participant that voted yes loses their role and becomes a none.
+If the result is no, Ethan lives and every player that voted no is immune to attacks that night.
+Ethan is immune to all attacks and death, except from True Kills.
+While Ethan is alive only the townsfolk team may win.
+This role can be applied to Ethan if they're neither participant or host but have the GM role, this is at the discression of the host.
