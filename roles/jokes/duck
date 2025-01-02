@@ -1,0 +1,10 @@
+**Duck** | Unaligned Miscellaneous | Joke
+  __Basics__
+The Duck may quack at a player if that player quacks back the Duck gains a point.
+The Duck wins when they have points equal to 5/9 of players.
+__Details__
+Each Night the Duck may choose a player to quack at, if that player quacks back they lose their vote on the election poll the next day but the Duck gains a point.
+When the Duck has points equal to 5/9 of the starting player count (rounded up) then they ascend and win.
+When the Duck ascends all players who quacked back gain a random elected role for the duration of the game, this elected role persists through death.
+
+This Joke role was created for <@406536328965128194>
