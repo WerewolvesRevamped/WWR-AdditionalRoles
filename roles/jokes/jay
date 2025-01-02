@@ -1,8 +1,8 @@
 **Jay** | Admin Investigative | Joke
 __Basics__
-Jay can check the role list and recieve information.
+Each night, Jay can check the role list and receive information.
 __Details__
-Jay can say the name of any player and a role and that is automatically true.
+Once per game, Jay can say the name of any player and a role and that is automatically true. Jay cannot create another Admin.
 They are immune to disguises and obstructions because what they say happens instead.
 While Jay is alive ts can not win.
-Jay wins when their chosen team does.
+Jay wins when their chosen team (during day 0) does.
