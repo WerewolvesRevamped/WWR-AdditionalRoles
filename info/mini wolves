@@ -1,0 +1,13 @@
+**Mini Wolves Roles**
+
+__Town:__
+@Query;Type=mini,Class=townsfolk;$.Emoji $.Name ($.ClassCat)@
+
+__Wolves:__
+@Query;Type=mini,Class=werewolf;$.Emoji $.Name ($.ClassCat)@
+
+__Solo:__
+@Query;Type=mini,Class=solo;$.Emoji $.Name ($.ClassCat)@
+
+__Unaligned:__
+@Query;Type=mini,Class=unaligned;$.Emoji $.Name ($.ClassCat)@
