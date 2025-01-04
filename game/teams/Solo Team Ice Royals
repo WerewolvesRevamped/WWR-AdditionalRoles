@@ -1,9 +1,6 @@
 **Ice Royals**
+__Basics__
 Ice Royals wins when all living players are either frozen, unaligned or a member of the ice royals. Members of the team know each other.
-
-__Roles__
-<?IceKing:> Ice King
-<?IcePrince:> Ice Prince
 
 __Formalized__
 Win Condition: @(Alignment:Ice Royals), @(Attribute:Frozen), @(Class:Unaligned)
