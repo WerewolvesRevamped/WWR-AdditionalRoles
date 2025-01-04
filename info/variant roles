@@ -1,0 +1,6 @@
+**Variant Roles**
+__List:__
+@Query;Type=limited;$.Emoji $.Name ($.ClassCat)@
+
+__Modifiers:__
+<?Modifier:> Modifiers
