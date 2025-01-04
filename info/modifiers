@@ -1,3 +1,5 @@
 **Modifiers**
+Modifiers are added on top of your role and do not affect your alignment.
+
 __List:__
 @Query;Type=variant,Class=extra;$.Emoji $.Name ($.ClassCat)@
