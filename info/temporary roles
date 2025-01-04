@@ -3,9 +3,5 @@ Temporary roles are roles that are designed for a specific game and will usually
 Temporary roles are usually either the main theme of the list or are added as a role to add an interesting mechanic for a specific theme.
 Temporary roles will only be added to `$i temporary roles` after the game they're used in is concluded.
 
-__Roles__
-<?CurseCaster:> Curse Caster (WP)
-<?Cryptographer:> Cryptographer (SK)
-<?LastLivingBabyWolf:> Last Living Baby Wolf (SM)
-<?LastLivingWolf:> Last Living Wolf (SK)
-<?Priestess:> Priestess (TP)
+__List:__
+@Query;Type=temporary;$.Emoji $.Name ($.ClassCat)@
