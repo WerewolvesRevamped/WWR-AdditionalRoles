@@ -3,7 +3,10 @@ Variant Roles are roles that are not used in standard on season games, these rol
 Roles here won't be active unless there is a game that uses them in play.
 
 __List:__
-@Query;Type=limited;$.Emoji $.Name ($.ClassCat)@
+@Query;Type=variant,Class=Townsfolk;$.Emoji $.Name ($.ClassCat)@
+@Query;Type=variant,Class=Werewolf;$.Emoji $.Name ($.ClassCat)@
+@Query;Type=variant,Class=Solo;$.Emoji $.Name ($.ClassCat)@
+@Query;Type=variant,Class=Unaligned;$.Emoji $.Name ($.ClassCat)@
 
 __Modifiers:__
 <?Modifier:> Modifiers
