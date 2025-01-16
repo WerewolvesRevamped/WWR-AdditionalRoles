@@ -9,7 +9,7 @@ Certain roles abilities have their own restrictions and changes however:
 - Each time the Test becomes a hell team role a soul is added to the test soul pool.
 - Ravenkeeper Ravens persist through Phases and information will be recieved even if the test no longer has the ability.
 - Any alignment conversions turn those players into Tests.
-- Any solo roles that apply an effect apply the ??? effect, the ??? effect works as the effect for whatever solo the test currently is.
+- Any solo roles that apply an effect apply the <?glitch:question> effect, the <?glitch:question> effect works as the effect for whatever solo the test currently is.
 - Roles that would interact with a type of private poll instead just act as if the Test had it's own poll already.
 
-The Test wins if it has a win condition that is reached from a role's ability, solo effects are replaced by the ??? effect.
+The Test wins if it has a win condition that is reached from a role's ability, solo effects are replaced by the <?glitch:question> effect.
