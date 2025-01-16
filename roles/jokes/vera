@@ -2,5 +2,9 @@
 __Basics__
 Vera may apply any atribute to anyone in the game.
 __Details__
-Vera may apply any atribute they want to any player, this includes the custom attributes for roles/teams and even technical attributes for roles to work.
-Vera wins if they are the only admin alive.
+Vera may apply any atribute they want to any player. 
+This includes the custom attributes for roles/teams and even technical attributes for roles to work.
+Vera is immune to attribute application but doesn't count for solo win conditions.
+Vera wins if there are no other admins in the game.
+
+This role is created for <@277156693765390337>

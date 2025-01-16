@@ -1,8 +1,15 @@
 **Test** | Test Miscellaneous | Joke
-
 __Basics__
-This is a test role
-
+This role is a test role, as such it is every role at once but not at the same time.
 __Details__
-This role is for testing the bot works
-~Also for weird Github things
+Each phase the Test will gain the ability of an arbitrary role until the start of the next phase.
+The test is aware of it's current ability.
+When it uses it's ability the Test has no count or temporal restrictions, however it must use the ability that the role can do that phase.
+Certain roles abilities have their own restrictions and changes however:
+- Each time the Test becomes a hell team role a soul is added to the test soul pool.
+- Ravenkeeper Ravens persist through Phases and information will be recieved even if the test no longer has the ability.
+- Any alignment conversions turn those players into Tests.
+- Any solo roles that apply an effect apply the <?glitch:question> effect, the <?glitch:question> effect works as the effect for whatever solo the test currently is.
+- Roles that would interact with a type of private poll instead just act as if the Test had it's own poll already.
+
+The Test wins if it has a win condition that is reached from a role's ability, solo effects are replaced by the <?glitch:question> effect.
