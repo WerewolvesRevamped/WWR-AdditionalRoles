@@ -15,7 +15,6 @@ Each night, the Perceptive Warlock may check one player’s role. This is affect
 The Perceptive Warlock knows parts of the role list.
 
 __Formalized__
-Inherit: `Pack Lycan`
 Starting: Learn `%PartialRoleList%`
 Immediate Night: Role Investigate @Selection (SD, WD)
 
