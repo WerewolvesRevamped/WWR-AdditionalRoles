@@ -22,7 +22,7 @@ __Formalized__
 Immediate Night: ⟨$total/10⟩ 
 • Process: Role Investigate @Selection
 • Evaluate: 
-  ‣ @Result is @SecondarySelection:
+  ‣ @Result is @SecondarySelection[Role]:
     ◦ `Success`
     ◦ Apply `Frozen` to @Selection
   ‣ Otherwise: `Incorrect`
