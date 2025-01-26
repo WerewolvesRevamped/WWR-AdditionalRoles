@@ -11,7 +11,7 @@ The Ice Prince wins with the ice king. It joins a channel with the ice king to c
 If there is no ice king left the Ice Prince will become one.
 
 __Formalized__
-Passive: Role Change @Self to `Ice King` [Condition: (not (@(Role:Ice-King) exists))]
+Passive: Role Change @Self to `Ice King` [Condition: not (@(Role:Ice-King) exists)]
 
 __Card__
 The Ice Prince is the heir to the Icy Throne.
