@@ -3,18 +3,13 @@ __Basics__
 Once per game, the Master Barber may choose to immediately attack one player during the day. Unlike the Barber, they can do so during Day 1. 
 __Details__
 At any time during the day, the Master Barber may once attack another player. 
-The Master Barber also chooses whether they want to be revealed or not. If they choose to be revealed both their role and name is announced, otherwise neither is.
-The Master Barber’s attack is an immediate ability. If the Master Barber's attack fails, they are not revealed.
+The Master Barber’s attack is an immediate ability.
 
 __Simplified__
 The Master Barber may once per game choose to immediately attack one player during the day.
-The player can optionally choose to have their name revealed with the announcement of their ability.
 
 __Formalized__
-Immediate Day: [Quantity: 1]
-  • Attack @Selection 
-  • Target @Selection (List: Reveal, NoReveal)
-  • Evaluate: (@Result is `Success`) and (@Target is Reveal): Reveal `Master Barber @Self killed @Selection` to #story_time
+Immediate Day: Attack @Selection [Quantity: 1]
 
 __Card__
 The Master Barber is a bit more daring than the regular barber. 
