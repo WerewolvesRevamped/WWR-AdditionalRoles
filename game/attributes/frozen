@@ -1,6 +1,7 @@
 **Frozen** | Attribute
 __Basics__
-The attribute of the ice royals. Frozen players are roleblocked while frozen.
+The attribute of the ice royals. Players are roleblocked and lose public voting power while frozen.
 
 __Formalized__
-Passive: Obstruct @Self (~Attribute)
+Starting: Obstruct @Self (~Attribute)
+Starting: Manipulate @Self's `public voting power` to `0` (~Attribute)
