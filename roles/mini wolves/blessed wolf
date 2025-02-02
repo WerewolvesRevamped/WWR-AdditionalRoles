@@ -12,10 +12,10 @@ When an attacker's attack fails, they are told that it failed because the target
 
 __Formalized__
 Inherit: `Pack Lycan`
-Starting: Protect @Self from `Attacks` through `Passive Defense` (~Permanent)
-On Passive Defense: 
-  • Role Investigate @Attacker
-  • Reveal `@Self survived because they were blessed` to @Attacker
+Starting: Protect @Self from `Attacks` through Passive Defense during Night (~Permanent)
+On Passive Defense:
+ • Reveal `You were attacked by @Attacker the @Attacker->Role` to @Self
+ • Reveal `@Self survived because they were blessed` to @Attacker
 
 __Card__
 Blessed by the wolf gods, the Blessed Wolf cannot die by usual means while in wolf form.
