@@ -1,0 +1,13 @@
+**Shrimp Chef** | Solo Power - Plague Team  | Joke
+
+__Basics__
+The Shrimp chef serves shrimp to customers, they have the option of preparing it raw or cooked.
+The Shrimp Chef wins with the plague team.
+__Details__
+Each day the Shrimp Chef will prepare a new shrimp dish, they can choose to prepare a cooked shrimp dish or a raw one, and coose a player to serve it to.
+At night the customer will be given the option to eat the shrimp dish or not, the Shrimp Chef cannot talk to the customer.
+Raw shrimp dishes give the player food poisoning, roleblocking them until the end of the next night, at which point the player will contract the plague.
+Cooked Shrimp dishes don't do anything but are necessary, as if the Shrimp Chef's customers eat two raw shrimp dishes in a row the Shrimp Chef will be shut down and can no longer use their ability.
+The Shrimp Chef cannot communicate with the rest of the plague team, however they are immune to the effects of the plague.
+
+This role is created for <@559747107368730624>
