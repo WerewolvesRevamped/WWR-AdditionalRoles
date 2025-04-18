@@ -14,8 +14,9 @@ If an Acrobat evades an attack, the source of the attack is told that their targ
 __Formalized__
 Starting: Protect @Self from `Attacks` by @(Attr:Wolfish) through Passive Defense during Night (~UntilSecondUse)
 On Passive Defense:
-  • @AttackSource is `Group:Wolfpack`: Reveal `@Self ran away` to #wolfpack
-  • Otherwise: Reveal `@Self ran away` to @Attacker
+  • Reveal `@Self is an Acrobat and ran away` to @AttackLocation
+  • Reveal `You got attacked and ran away` to @Self
+
 
 __Card__
 The Acrobat is faster than even the runner, outrunning the wolves twice.

@@ -12,9 +12,12 @@ They can also use this ability the night prior to a lynch if they wish to do so.
 The Royal Guard can optionally choose to reveal their name alongside the announcement of the role being used.
 
 __Formalized__
-Compound:
-  • Immediate: Cancel `Lynch` Poll
-  • End Day: Reveal `Royal Guard @Self cancelled lynch` to #story_time
+Immediate: [Quantity: 1]
+  • Cancel `Lynch` Poll
+  • @Selection[boolean] is True: Apply `Marker` to @Self
+Passive End Day: [Attribute: has `Marker`]
+  • Announce `Royal Knight @Self cancelled lynch`
+  • Remove `Marker` from @Self
 
 __Card__
 The Royal Guard is a more respected royal knight.
