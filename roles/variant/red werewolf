@@ -22,7 +22,7 @@ Require: `Bloody Butcher`
 Inherit: `Pack Lycan`
 Starting: Strongly Disguise @Self as `Butcher`
 Starting: Join #Butchers
-End Night: Attack @Selection [Condition: @Selection is in #Wolfpack, Succession: No Succession, Temporal: Night 2+]
+End Night: Attack @Selection [Condition: (@Selection is in #Wolfpack) or (@Selection is in #Butchers), Succession: No Succession, Temporal: Night 2+]
 
 __Card__
 The Red Werewolf is a more ruthless version of the White Werewolf who has infiltrated the butchers as well.
