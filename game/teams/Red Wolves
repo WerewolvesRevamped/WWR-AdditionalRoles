@@ -1,6 +1,6 @@
 **Red Wolves**
 __Basics__
-Red Wolves always start out with just themselves on their team, however they pretend to be a bloody butcher They win when almost everyone, excluding unaligned players, is dead. In rare circumstances (e.g. through copying or rule changes) the red wolves team may contain more than one player.
+Red Wolves always start out with just themselves on their team, however they pretend to be a bloody butcher They win when only the red wolf, unaligned players and one non butcher aligned player is alive. In rare circumstances (e.g. through copying or rule changes) the red wolves team may contain more than one player.
 
 __Formalized__
-Passive: Win [Condition ^(Class:!Unaligned,Align:!Red-Wolves,Group:!Butchers)->Count is 1]
+Passive: Win [Condition ^(Class:!Unaligned,Align:!Red-Wolves,Group:!Butchers)->Count is 1, Condition: #Butchers->Members->Count is 1]
