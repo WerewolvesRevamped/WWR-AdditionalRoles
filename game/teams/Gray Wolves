@@ -1,6 +1,6 @@
 **Gray Wolves**
 __Basics__
-Gray Wolves always start out with just themselves on their team, however they pretend to be a bloody butcher They win when only the gray wolf, unaligned players and one other aligned player is alive. In rare circumstances (e.g. through copying or rule changes) the gray wolves team may contain more than one player.
+Gray Wolves always start out with just themselves on their team, however they pretend to be another wolf. They win when only the gray wolf, unaligned players and one other aligned player is alive. In rare circumstances (e.g. through copying or rule changes) the gray wolves team may contain more than one player.
 
 __Formalized__
 Passive: Win [Condition ^(Class:!Unaligned,Align:!Gray-Wolves)->Count is 1]
