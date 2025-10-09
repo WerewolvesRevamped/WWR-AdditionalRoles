@@ -1,0 +1,12 @@
+**Duck** | Unaligned Power | Joke
+  __Basics__
+The Duck may quack at a player if that player quacks back the Duck gains a birdseed.
+The Duck wins when they have birdseed equal to 5/9 of players.
+__Details__
+Each Night the Duck may select up to 3 players to quack at, if a player quacks back they lose their vote on the election poll.
+The next day the Duck gains birdseed equal to players who quacked back.
+When the Duck has birdseed equal to 5/9 of the starting player count (rounded up) then they ascend and win.
+When the Duck ascends all players who quacked back gain a random extra role for the duration of the game, this extra role persists through death.
+The extra role can be any role but without alignment.
+
+This Joke role was created for <@406536328965128194>

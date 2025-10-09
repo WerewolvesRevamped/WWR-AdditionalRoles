@@ -1,6 +1,24 @@
 **Ts** | Admin Killing | Joke
 __Basics__
 During any phase, Ts may kill any amount of players.
+Ts can choose when they win.
 __Details__
+During any phase, Ts may kill any amount of players but not choose who is killed.
 Ts's kill can not be avoided and is an immediate effect.
-Ts can choose to ascend any time and then wins the game immediately.
+Ts can choose to ascend any time and then wins the game immediately, however if another admin is alive then Ts descends and loses instead.
+
+This role is made for <@242983689921888256>
+
+__Formalized__
+Passive Start Phase: Emit `Ts Option`
+On `Ts Option` Emitted: `Ts` Choice Creation (Win,Kill)
+On `Ts Option` Emitted: `Ts` Choice Choose @Chosen
+Choice `Win` Chosen: 
+  • Process: Investigate @(Align:Admin) Player Count
+  • Evaluate:
+    ‣ @Result is 1: Win
+    ‣ Otherwise: Emit `Ts Option`
+Choice `Kill` Chosen:
+  • True Kill @All->RandomPlayer
+  • Emit `Ts Option`
+

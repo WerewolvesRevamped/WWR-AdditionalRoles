@@ -1,5 +1,7 @@
-**Temporary Info** | Additional Information | Temporary
-__Basics__
+**Temporary Roles**
 Temporary roles are roles that are designed for a specific game and will usually only be used in that game, however some may make a reappearence.
 Temporary roles are usually either the main theme of the list or are added as a role to add an interesting mechanic for a specific theme.
 Temporary roles will only be added to `$i temporary roles` after the game they're used in is concluded.
+
+__List:__
+@Query;Type=temporary;$.Emoji $.Name ($.ClassCat)@

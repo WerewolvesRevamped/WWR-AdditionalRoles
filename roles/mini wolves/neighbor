@@ -8,7 +8,9 @@ __Simplified__
 At the start, the Neighbor receives a list of three players, one of which is town aligned.
 
 __Formalized__
-Starting: Learn `One of shuffle(%Player1%, %Player2%, %Player3:@(Align:Townsfolk)%) is townsfolk aligned `
+Starting:
+ • Process: Shuffle %Player1% %Player2% %Player3%
+ • Evaluate: Learn `At least one of these players is Townsfolk Aligned  - @Result`
 
 __Card__
 The Neighbor is sure at least one of her three neighbors is an ally.

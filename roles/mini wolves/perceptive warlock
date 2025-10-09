@@ -1,0 +1,22 @@
+**Perceptive Warlock** | Werewolf Investigative | Mini
+__Basics__
+Each night, the Perceptive Warlock may check one player’s role.
+The Perceptive Warlock starts out with some information about the role list.
+__Details__
+At the start of the game the Perceptive Warlock is told some of the roles on the role list.
+The type of info the Perceptive Warlock receives may differ between games and has no limitations.
+Each night, the Perceptive Warlock may inspect a player. They will be told what that player's role is. 
+Inspecting a player is an immediate ability. The Perceptive Warlock is affected by all disguises and redirections.
+The Perceptive Warlock is not a lycan, nor are they a member of the wolfpack.
+
+__Simplified__
+The Perceptive Warlock and wolfpack do not know each other.
+Each night, the Perceptive Warlock may check one player’s role. This is affected by all disguises and redirections. 
+The Perceptive Warlock knows parts of the role list.
+
+__Formalized__
+Starting: Learn `%PartialRoleList%`
+Immediate Night: Role Investigate @Selection (SD, WD)
+
+__Card__
+The Perceptive Warlock sees much that others do not.

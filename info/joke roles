@@ -1,0 +1,5 @@
+**Joke Roles**
+Joke roles exist as a joke and are not real roles.
+
+__List:__
+@Query;Type=joke;$.Emoji $.Name ($.ClassCat)@
