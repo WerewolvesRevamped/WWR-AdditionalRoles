@@ -4,7 +4,7 @@ If attacked at night by a wolfish player, an Accursed player will survive and tu
 If the Accursed player is a baker or butcher, they will instead become a bloody butcher. Cult Members/Leaders turn into cultist wolf. Cupids turn into cupid wolf.
 
 __Formalized__
-Starting: Protect @Self from `Attacks` by @(Attr:Wolfish) through Partial Defense
+Starting: Protect @Self from `Attacks` by @(Attr:Wolfish) through Partial Defense (~Attribute)
 On Partial Defense:
   • @Self->Role is `Baker`+`Butcher`: Role Change @Self to `Bloody Butcher`
   • @Self->Role is `Cult Member`+`Cult Leader`: Role Change @Self to `Cultist Wolf`
