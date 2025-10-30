@@ -1,0 +1,6 @@
+**Childish** | Attribute
+__Basics__
+If a Childish player dies, there will be an extra lynch poll the next day.
+
+__Formalized__
+On Death: Add `Lynch` Poll

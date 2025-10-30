@@ -1,4 +1,4 @@
-**Acrobatic** | Extra Miscellaneous - Modifier | Variant
+**Acrobatic** | Attribute
 __Basics__
 If attacked at night by a wolfish player an Acrobatic player will escape unharmed twice, and be informed they were attacked.
 A wolfish player who attacks an Acrobatic player will be informed of this, if the attack is a group they will be informed instead.
@@ -7,5 +7,5 @@ After being attacked twice, it will lose its ability.
 __Formalized__
 Starting: Protect @Self from `Attacks` by @(Attr:Wolfish) through Passive Defense during Night (~UntilSecondUse)
 On Passive Defense:
-  • @AttackSource is `Group:Wolfpack`: Reveal `@Self ran away` to #wolfpack
-  • Otherwise: Reveal `@Self ran away` to @Attacker
+  • Reveal `@Self is Acrobatic and ran away` to @AttackLocation
+  • Reveal `You got attacked and ran away` to @Self

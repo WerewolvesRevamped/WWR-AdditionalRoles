@@ -1,5 +1,7 @@
-**Prankster** | Extra Miscellaneous - Modifier | Variant
+**Prankster** | Attribute
 __Basics__
 The Prankster has a -1 vote on public polls.
-__Edge Cases__
 While they have the mayor's extra vote, the Prankster's vote is counted as -2 instead.
+
+__Formalized__
+Starting: Manipulate @Self's `public voting power` to `-1` (~Attribute)

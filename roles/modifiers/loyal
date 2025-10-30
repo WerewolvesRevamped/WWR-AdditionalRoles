@@ -1,3 +1,6 @@
-**Loyal** | Extra Miscellaneous - Modifier | Variant
+**Loyal** | Attribute
 __Basics__
  The Loyal player is immune to role changes that would change their alignment.
+
+__Formalized__
+Starting: Loyalty to @Self->Alignment (Alignment)

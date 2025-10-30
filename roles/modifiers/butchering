@@ -1,6 +1,8 @@
-**Butchering** | Extra Group - Modifier | Variant
+**Butchering** | Attribute
 __Basics__
-Butchering players will start as a part of the butchers group.
-__Edge Cases__
+Butchering players will start as part of the butchers group.
 A Butchering wolf can be used in place of a bloody butcher.
 This modifier is only applicable to townsfolk or werewolf players.
+
+__Formalized__
+Starting: Join #Butchers

@@ -1,3 +1,6 @@
-**Wolven** | Extra Miscellaneous - Modifier | Variant
+**Wolven** | Attribute
 __Basics__
 The Wolven player will have the attribute 'wolfish' meaning their abilities will impact roles such as assistant or recluse.
+
+__Formalized__
+Starting: Apply `Wolfish` to @Self (~Attribute)
