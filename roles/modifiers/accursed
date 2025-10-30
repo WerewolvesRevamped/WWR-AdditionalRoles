@@ -1,0 +1,12 @@
+**Accursed** | Attribute
+__Basics__
+If attacked at night by a wolfish player, an Accursed player will survive and turn into a wolf. This role cannot be applied to loyal roles.
+If the Accursed player is a baker or butcher, they will instead become a bloody butcher. Cult Members/Leaders turn into cultist wolf. Cupids turn into cupid wolf.
+
+__Formalized__
+Starting: Protect @Self from `Attacks` by @(Attr:Wolfish) through Partial Defense
+On Partial Defense:
+  • @Self->Role is `Baker`+`Butcher`: Role Change @Self to `Bloody Butcher`
+  • @Self->Role is `Cult Member`+`Cult Leader`: Role Change @Self to `Cultist Wolf`
+  • @Self->Role is `Cupid`: Role Change @Self to `Cupid Wolf`
+  • Otherwise: Role Change @Self to `Wolf`
