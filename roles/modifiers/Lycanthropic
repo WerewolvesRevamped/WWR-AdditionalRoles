@@ -1,3 +1,8 @@
-**Lycanthropic** | Extra Miscellaneous - Modifier | Variant
+**Lycanthropic** | Attribute
 __Basics__
 The Lycanthropic player will have the attributes 'wolfish' and 'lycan' meaning their abilities will impact roles such as assistant or recluse as well as aura teller.
+
+__Formalized__
+Starting:
+  • Apply `Wolfish` to @Self (~Attribute)
+  • Apply `Lycan` to @Self (~Attribute)
