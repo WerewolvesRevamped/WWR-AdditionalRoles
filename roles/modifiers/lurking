@@ -1,0 +1,6 @@
+**Lurking** | Attribute
+__Basics__
+Lurking players are strongly disguised as a citizen while they have this modifier.
+
+__Formalized__
+Starting: Strongly Disguise @Self as `Citizen` (~Attribute)
