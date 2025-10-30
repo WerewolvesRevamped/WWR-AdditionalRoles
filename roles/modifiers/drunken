@@ -3,6 +3,6 @@ __Basics__
 The Drunken player is immune to all attacks at night while there is at least one bartender alive.
 
 __Formalized__
-Starting: Protect @Self from `Attacks` through Absence at #tavern during Night
+Starting: Protect @Self from `Attacks` through Absence at #tavern during Night (~Attribute)
 On @(Role:Bartender) Death: Remove `Absence:Drunken` from @Self [Condition: not (@(Role:Bartender) exists)]
 Passive End Night: Kill @Self [Condition: not (@(Role:Bartender) exists)]
