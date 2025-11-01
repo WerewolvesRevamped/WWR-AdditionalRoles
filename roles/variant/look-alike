@@ -17,6 +17,7 @@ Immediate Night: {Forced}
   • (@Target is `Devil`): Role Change to `Demon`
   • (@Target is `Plague Bearer`): Role Change to `Plague Carrier`
   • (@Target is `Reaper`): Role Change to `Immortal`
+  • (@Target is `Shepherd`): Role Change to `Herding Dog`
   • Otherwise: Role Change @Self to @Selection->Role
 
 __Card__
