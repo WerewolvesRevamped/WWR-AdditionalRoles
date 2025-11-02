@@ -11,7 +11,7 @@ __Simplified__
 During Night 1, the Look-Alike must choose one other player whose role they copy.
 
 __Formalized__
-Immediate Night: [Temporal: Night 1] {Forced}
+Immediate Night: {Forced}
   • Target @Selection->Role (Player)
   • @Target is `Cult Leader`: Role Change to `Cult Member`
   • @Target is `Devil`: Role Change to `Demon`
