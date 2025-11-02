@@ -13,11 +13,11 @@ During Night 1, the Look-Alike must choose one other player whose role they copy
 __Formalized__
 Immediate Night: {Forced}
   • Target @Selection->Role (Player)
-  • (@Target is `Cult Leader`): Role Change to `Cult Member`
-  • (@Target is `Devil`): Role Change to `Demon`
-  • (@Target is `Plague Bearer`): Role Change to `Plague Carrier`
-  • (@Target is `Reaper`): Role Change to `Immortal`
-  • (@Target is `Shepherd`): Role Change to `Herding Dog`
+  • @Target is `Cult Leader`: Role Change to `Cult Member`
+  • @Target is `Devil`: Role Change to `Demon`
+  • @Target is `Plague Bearer`: Role Change to `Plague Carrier`
+  • @Target is `Reaper`: Role Change to `Immortal`
+  • @Target is `Shepherd`: Role Change to `Herding Dog`
   • Otherwise: Role Change @Self to @Selection->Role
 
 __Card__
