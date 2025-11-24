@@ -1,0 +1,11 @@
+**Running** | Attribute
+__Basics__
+If attacked at night by a wolfish player, a Running player will escape unharmed the first time, and be informed they were attacked.
+A wolfish player who attacks a Running player will be informed of this, if the attack is a group they will be informed instead.
+After being attacked once, it will lose its ability.
+
+__Formalized__
+Starting: Protect @Self from `Attacks` by @(Attr:Wolfish) through Passive Defense during Night (~UntilUse)
+On Passive Defense:
+  • Reveal `@Self is Running and ran away` to @AttackLocation
+  • Reveal `You got attacked and ran away` to @Self

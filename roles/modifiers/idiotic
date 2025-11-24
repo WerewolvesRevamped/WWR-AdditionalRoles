@@ -1,0 +1,9 @@
+**Idiotic** | Attribute
+__Basics__
+If the Idiotic player is attacked, lynched or killed the first time they survive and instead lose their vote.
+
+__Formalized__
+Starting: Protect @Self from `All` through Partial Defense (~UntilUse)
+On Partial Defense:
+  • Learn `Defense was used!`
+  • Manipulate @Self's `public voting power` to `0`
