@@ -1,0 +1,7 @@
+**Last Living Wolf** | Solo Killing - Werewolf Team | Variant
+__Basics__
+The Last Living Wolf can only be in the game when there is no werewolf team. Instead, the Last Living Wolf represents the entire werewolf team. 
+__Details__
+Each night, the Last Living Wolf may select three werewolf roles and will be able to use that role's abilities for the rest of the night and the following day. The Last Living Wolf can both use active and passive abilities. They may not select the same role twice in one night. If limitations apply to a role (e.g. one pack overwrite for alpha wolf), they still apply for the Last Living Wolf (they may select Alpha Wolf as many times as they want, but can only overwrite once).
+If there are several Last Living Wolvess they work together. If there are other werewolf-aligned players, they can win together with the Last Living Wolf. The Last Living Wolf is a lycan, but not a part of the wolfpack. Any abilities that would let the Last Living Wolf join the wolfpack fail.
+Use `$i werewolf` to get an overview of what werewolf roles exist.
