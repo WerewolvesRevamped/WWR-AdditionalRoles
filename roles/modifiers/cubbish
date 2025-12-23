@@ -1,0 +1,6 @@
+**Cubbish** | Attribute
+__Basics__
+If a Cubbish player dies, there will be an extra wolfpack poll the next night.
+
+__Formalized__
+On Death: Add `Wolfpack` Poll
