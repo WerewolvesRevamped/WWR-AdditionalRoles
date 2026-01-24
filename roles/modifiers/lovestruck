@@ -5,7 +5,6 @@ Lovestruck players and their lover will share a channel where they can communica
 A Lovestruck player will gain the alignment of their lover in addidtion to their own.
 
 __Formalized__
-Inherit: `Cupid`
 Starting: Join #Couple
 Immediate Night: [Condition: @Selection is not @Self, Temporal: Night 1] {Forced}
   • Target @Selection (Player) 
