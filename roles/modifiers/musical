@@ -2,6 +2,7 @@
 __Basics__
 Whenever a Musical player is visited it is announced at the end of the current phase what action was performed and by what role.
 It is always announced to be performed on a Musical player and not the player themself or their role.
+The following types of abilities are announced: killing, investigating, targeting, disguising, protecting, applying, manipulating, whispering, joining, granting, obstructing, changing, resurrecting.
 
 __Formalized__
 On Visited [Killing]: Apply `MusicalVisited` to @Visitor (~Phase) (Killing)
