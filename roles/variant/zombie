@@ -21,13 +21,7 @@ Each night, the Zombie may bite another player. If a player is bitten two nights
 If a Zombie dies, every other Zombie that has been turned by the dying Zombie also dies.
 
 __Formalized__
-Starting: Join #Graveyard
-Starting: Obstruct @Self (~Phase)
-Immediate Night:
-  • @Selection has `Bitten`:
-    ‣ @(Attr:Bitten:@Selection)->Counter is `1`: Role Change @Selection to `Zombie`
-    ‣ Otherwise: Set @(Attr:Bitten:@Selection)->Counter to `0`
-  • Otherwise: Apply `Bitten` to @Selection
+LOAD@5
 
 __Card__
 Two bites from a Zombie and you'll be one yourself.
