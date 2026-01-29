@@ -4,7 +4,7 @@ During any phase, Ts may kill any amount of players.
 Ts can choose when they win.
 __Details__
 During any phase, Ts may kill any amount of players but not choose who is killed.
-Ts's kill can not be avoided and is an immediate effect.
+Ts's kill can not be avoided and is an end night effect.
 Ts can choose to ascend any time and then wins the game immediately, however if another admin is alive then Ts descends and loses instead.
 
 This role is made for <@242983689921888256>
@@ -18,7 +18,7 @@ Choice `Win` Chosen:
   • Evaluate:
     ‣ @Result is 1: Win
     ‣ Otherwise: Emit `Ts Option`
-Choice `Kill` Chosen:
+Choice `Kill` End Chosen:
   • True Kill @All->RandomPlayer
   • Emit `Ts Option`
 
