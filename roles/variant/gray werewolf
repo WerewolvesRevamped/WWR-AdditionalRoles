@@ -14,11 +14,7 @@ __Simplified__
 The Gray Werewolf is similar to the White Werewolf. A difference is that the Gray Werewolf can also win while one other player is alive. 
 
 __Formalized__
-Unique Role
-Inherit: `Pack Lycan`
-Starting: Apply `Wolfish` to @Self
-Starting: Weakly Disguise @Self as %Role%
-End Night: Attack @Selection [Condition: @Selection is in #Wolfpack, Succession: No Succession, Temporal: Night 2+]
+LOAD@2
 
 __Card__
 The Gray Werewolf is a less ruthless white werewolf, wishing only most, but not all, wolves dead.
