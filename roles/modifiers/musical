@@ -1,0 +1,20 @@
+**Musical** | Attribute
+__Basics__
+Whenever a Musical player is visited it is announced at the end of the current phase what action was performed and by what role.
+It is always announced to be performed on a Musical player and not the player themself or their role.
+The following types of abilities are announced: killing, investigating, targeting, disguising, protecting, applying, manipulating, whispering, joining, granting, obstructing, changing, resurrecting.
+
+__Formalized__
+On Visited [Killing]: Apply `MusicalVisited` to @Visitor (~Phase) (Killing)
+On Visited [Investigating]: Apply `MusicalVisited` to @Visitor (~Phase) (Investigating)
+On Visited [Targeting]: Apply `MusicalVisited` to @Visitor (~Phase) (Targeting)
+On Visited [Disguising]: Apply `MusicalVisited` to @Visitor (~Phase) (Disguising)
+On Visited [Protecting]: Apply `MusicalVisited` to @Visitor (~Phase) (Protecting)
+On Visited [Applying]: Apply `MusicalVisited` to @Visitor (~Phase) (Applying)
+On Visited [Manipulating]: Apply `MusicalVisited` to @Visitor (~Phase) (Manipulating)
+On Visited [Whispering]: Apply `MusicalVisited` to @Visitor (~Phase) (Whispering)
+On Visited [Joining]: Apply `MusicalVisited` to @Visitor (~Phase) (Joining)
+On Visited [Granting]: Apply `MusicalVisited` to @Visitor (~Phase) (Granting)
+On Visited [Obstructing]: Apply `MusicalVisited` to @Visitor (~Phase) (Obstructing)
+On Visited [Changing]: Apply `MusicalVisited` to @Visitor (~Phase) (Changing)
+On Visited [Resurrecting]: Apply `MusicalVisited` to @Visitor (~Phase) (Resurrecting)

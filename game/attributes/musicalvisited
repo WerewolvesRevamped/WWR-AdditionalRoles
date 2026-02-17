@@ -1,0 +1,19 @@
+**Musical Visited** | Attribute
+__Basics__
+The attribute applied to store data from the Musical modifier.
+
+__Formalized__
+End Phase:
+  • @ThisAttr->Value1 is `Killing`: Announce `@Self attacked a musical player`
+  • @ThisAttr->Value1 is `Investigating`: Announce `@Self investigated a musical player`
+  • @ThisAttr->Value1 is `Targeting`: Announce `@Self targeted a musical player`
+  • @ThisAttr->Value1 is `Disguising`: Announce `@Self disguised a musical player`
+  • @ThisAttr->Value1 is `Protecting`: Announce `@Self protected a musical player`
+  • @ThisAttr->Value1 is `Applying`: Announce `@Self applied something to a musical player`
+  • @ThisAttr->Value1 is `Manipulating`: Announce `@Self vote manipulated a musical player`
+  • @ThisAttr->Value1 is `Whispering`: Announce `@Self whispered to a musical player`
+  • @ThisAttr->Value1 is `Joining`: Announce `@Self joined a musical player to a group`
+  • @ThisAttr->Value1 is `Granting`: Announce `@Self granted something to a musical player`
+  • @ThisAttr->Value1 is `Obstructing`: Announce `@Self obstructed a musical player`
+  • @ThisAttr->Value1 is `Changing`: Announce `@Self role changed a musical player`
+  • @ThisAttr->Value1 is `Resurrecting`: Announce `@Self resurrected a musical player`

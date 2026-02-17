@@ -1,0 +1,11 @@
+**Tattling** | Attribute
+__Basics__
+Each night, a Tattling player may check a player's. The result will be sent to a random player with an investigative role. The player will receive the name of the investigated player and their role.
+
+__Formalized__
+End Night:
+  • Process:
+    ‣ Target @(Cat:Investigative)->RandomPlayer
+    ‣ Role Investigate @Selection (SD)
+  • Evaluate:
+    ‣ Reveal `@Selection is @Result2` to @Target
