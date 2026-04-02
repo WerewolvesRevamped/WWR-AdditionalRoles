@@ -18,7 +18,7 @@ Immediate Night: {Forced}
   • @Target is `Plague Bearer`: Role Change to `Plague Carrier`
   • @Target is `Reaper`: Role Change to `Immortal`
   • @Target is `Shepherd`: Role Change to `Herding Dog`
-  • Otherwise: Role Change @Self to @Selection->Role
+  • Otherwise: Copy @Selection
 
 __Card__
 The Look-Alike finds somebody else and copies everything they have.
