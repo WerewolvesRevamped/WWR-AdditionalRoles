@@ -4,4 +4,4 @@ Ice Royals wins when all living players are either frozen, unaligned or a member
 
 __Formalized__
 Win Condition: @(Alignment:Ice Royals), @(Attribute:Frozen), @(Class:Unaligned)
-Starting: Join `Ice Palace`
+Starting: Join #Ice-Palace
