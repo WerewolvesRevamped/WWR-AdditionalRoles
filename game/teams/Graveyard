@@ -4,4 +4,4 @@ Graveyard Team wins when all players are dead, unaligned or part of the team. Me
 
 __Formalized__
 Win Condition: @(Alignment:Graveyard), @(Class:Unaligned)
-Starting: Join `Graveyard`
+Starting: Join #Graveyard
