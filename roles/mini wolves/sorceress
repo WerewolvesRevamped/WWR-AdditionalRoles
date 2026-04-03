@@ -14,8 +14,7 @@ __Formalized__
 End Day:
   • Reveal `Sorceress used an ability on you` to @Selection
   • @Selection->Alignment is `Townsfolk`:
-    ‣ Learn `Success`
-    ‣ Duplicate @Selection's abilities (~NextNight)
+    ‣ Learn `Success, but notify Host as this role does not work.`
   • @Selection->Alignment is `Werewolf`:
     ‣ Learn `Failure and you lose your powers.`
     ‣ Obstruct Copying for @Self
