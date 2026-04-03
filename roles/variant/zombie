@@ -25,8 +25,8 @@ Starting: Join #Graveyard
 Starting: Obstruct @Self (~Phase)
 Immediate Night:
   • @Selection has `Bitten`:
-    ‣ @(Attr:Bitten:@Selection)->Counter is `1`: Role Change @Selection to `Zombie`
-    ‣ Otherwise: Set @(Attr:Bitten:@Selection)->Counter to `0`
+    ‣ @Selection->Attr(Bitten)->Counter is `1`: Role Change @Selection to `Zombie`
+    ‣ Otherwise: Set Counter to `0` for @Selection->Attr(Bitten)
   • Otherwise: Apply `Bitten` to @Selection
 
 __Card__
