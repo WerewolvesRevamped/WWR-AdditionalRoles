@@ -3,7 +3,7 @@ __Basics__
 During any phase, Ts may kill any amount of players.
 Ts can choose when they win.
 __Details__
-During any phase, Ts may kill any amount of players but not choose who is killed.
+During any phase, Ts may kill any amount of non-pregnant players but not choose who is killed.
 Ts's kill can not be avoided and is an immediate effect.
 Ts can choose to ascend any time and then wins the game immediately, however if another admin is alive then Ts descends and loses instead.
 
