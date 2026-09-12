@@ -1,0 +1,24 @@
+**Angle** | Unaligned Power
+__Basics__
+The Angle wins when they are not lynched (but someone else is)
+__Details__
+When the Angle wins, the Angle ascends and stops playing. The game continues. In addition, the following lynch will be cancelled (applies to only one lynch).
+The Angle may select a player. If this player is lynched, the angle will take their place allowing them to live.
+The Angle may change their target once per night, with 1 emergency change to be used whenever the Angle wants to. Targetting a player is an immediate effect.
+The Angle is nonaligned.
+
+__Simplified__
+The Angle wins when they steal a lynch: the game continues afterwards. In addition, the following lynch will be cancelled.
+The Angle may select a player who's place they take if they are lynched
+
+__Formalized__
+Start Night: Target @Selection (Player Optional) |silent:targeting.target.player|
+On Action [Targeting]: Target @Selection (Player Optional) [Quantity: 1] |silent:targeting.emergency.player|
+On @TargetDead Death:
+  • @DeathType is `lynch`:
+    ‣ Announce `Angle @Self saved @Target`
+    ‣ Delete `Lynch` Poll
+    ‣ Ascend
+
+__Card__
+The Angle wants to go back to heaven, by being a 'saviour'
