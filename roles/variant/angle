@@ -12,11 +12,14 @@ The Angle wins when they steal a lynch: the game continues afterwards. In additi
 The Angle may select a player who's place they take if they are lynched
 
 __Formalized__
-Start Night: Target @Selection (Player Optional) |silent:targeting.target.player|
+Immediate Night: Target @Selection (Player Optional) [Condition: not (@Target exists)] |targeting.target.player|
+Immediate Night: Target @Selection (Player Optional) [Condition: @Target exists] |silent:targeting.change.player|
 On Action [Targeting]: Target @Selection (Player Optional) [Quantity: 1] |silent:targeting.emergency.player|
+Passive Start Day: [Condition: @Target exists]
+  • Apply 'angled' to @Target (~Phase)
 On @TargetDead Death:
   • @DeathType is `lynch`:
-    ‣ Announce `Angle @Self saved @Target`
+    ‣ Announce `Angle @Self saved @TargetDead`
     ‣ Delete `Lynch` Poll
     ‣ Ascend
 
