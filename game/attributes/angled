@@ -7,7 +7,6 @@ On Poll `Lynch` Win:
   • Set Counter to @Voters->Count
   • For Each @OtherVoters:
     ‣ @ThisAttr->Source is @Ind: Decrement Counter
-  • Emit `Stop Lynch Angled`
-On `Stop Lynch Angled` Emitted: [Condition: @Self->Counter is 0]
-  • Announce `Angle @ThisAttr->Source tried to lynch @Self`
-  • Protect @Self from `Lynches` through Passive Defense (~UntilUse)
+  • @Self->Counter > 0:
+    ‣ Protect @Target from `Lynches` through Passive Defense (~UntilUse)
+    ‣ Emit `Target Saved` for @ThisAttr->Source

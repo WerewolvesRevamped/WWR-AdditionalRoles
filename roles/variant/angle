@@ -15,13 +15,12 @@ __Formalized__
 Immediate Night: Target @Selection (Player Optional) [Condition: not (@Target exists)] |targeting.target.player|
 Immediate Night: Target @Selection (Player Optional) [Condition: @Target exists] |silent:targeting.change.player|
 On Action [Targeting]: Target @Selection (Player Optional) [Quantity: 1] |silent:targeting.emergency.player|
-Passive Start Day: [Condition: @Target exists]
-  • Apply 'angled' to @Target (~Phase)
-On @TargetDead Death:
-  • @DeathType is `lynch`:
-    ‣ Announce `Angle @Self saved @TargetDead`
-    ‣ Delete `Lynch` Poll
-    ‣ Ascend
+Passive Start Day: [Condition: (@Target exists) and (@Target is not @Self)]
+  • Apply `angled` to @Target (~Phase) {Visitless}
+On `Target Saved` Emitted:
+  • Announce `Angle @Self saved @Target`
+  • Delete `Lynch` Poll
+  • Ascend
 
 __Card__
 The Angle wants to go back to heaven, by being a 'saviour'
